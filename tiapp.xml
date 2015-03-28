@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://tiforward.org">
+    <id>com.example.app</id>
+    <name>Vaporware Testbed</name>
+    <version>1.0</version>
+    <publisher>not specified</publisher>
+    <url>http://</url>
+    <scripts>
+        <default>/app.js</default>
+        <tests>/tests/index.js</tests>
+    </scripts>
+    <description>not specified</description>
+    <copyright>not specified</copyright>
+    <guid>fbce5e74-a264-4136-99d3-432948405966</guid>
+    <layoutEngine>dp</layoutEngine>
+    <modules>
+        <module platform="js" version="~2.1.0">lodash</module>
+        <module platform="iphone">dk.napp.social</module>
+  </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+    </deployment-targets>
+    <sdk-version>ti.forward</sdk-version>
+</ti:app>
